@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            position: relative;
+            height: 31vh;
+            width: 100%;
+            background-color: rgb(83, 83, 83);
+            align-items: center;
+            padding-left: 40px;
+            box-sizing: border-box;
+
+        }
+
+        img {
+            height: 120px;
+            width: 120px;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            position: relative;
+            top: 0.5vh;
+            height: 7vh;
+            width: 100%;
+            background-color: rgb(83, 83, 83);
+
+        }
+
+        nav a {
+            color: beige;
+            cursor: pointer;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 7px 50px;
+            display: inline-block;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        }
+
+        nav a:hover {
+            background-color: rgb(18, 209, 18);
+            color: aliceblue;
+
+        }
+
+        main {
+            position: relative;
+            background: url('./bg.jpg') no-repeat;
+            background-size: cover;
+            color: #fff;
+            height: 120vh;
+            top: 0vh;
+
+        }
+
+        .contact {
+            position: relative;
+            top: 350px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            line-height: 10px;
+
+        }
+
+        .contact h1 {
+            font-size: 40px;
+            padding-bottom: 30px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .contact label {
+            font-size: 15px;
+            /* margin: 15px 0; */
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .contact input {
+            font-size: 16px;
+            padding: 16px;
+            width: 100%;
+            border: 0;
+            border-radius: 5px;
+            outline: none;
+        }
+        .contact div input{
+            display: flex;
+            flex-direction: row;
+            height: 20px;
+    
+        }
+
+        .contact div {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact button {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 10px 15px;
+            border: 2px solid white;
+            border-radius: 15px;
+            background-color: #fff;
+            background: transparent;
+
+        }
+
+        .contact button:hover {
+            color: red;
+        }
+
+        footer {
+            position: relative;
+            height: 65vh;
+            width: 100%;
+            background-color: rgb(93, 101, 107);
+        }
+
+        footer .foot {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            text-align: center;
+            top: 25vh;
+        }
+
+        .first h3,
+        a {
+            display: flex;
+            flex-direction: column;
+
+            color: white;
+            gap: 50px;
+
+        }
+
+        .first a {
+            display: flex;
+            justify-content: space-evenly;
+            text-decoration: none;
+            font-size: 18px;
+
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .second,
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+        }
+
+        .third {
+            color: white;
+            gap: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .third .icon {
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            cursor: pointer;
+            font-size: 25px;
+        }
+
+        form input {
+            height: 40px;
+            width: 400px;
+            border-radius: 5px;
+            text-align: center;
+            outline: none;
+            border: none;
+        }
+
+        input::placeholder {
+            text-align: center;
+        }
+
+        .but {
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 100px;
+            border-radius: 40px;
+        }
+
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="./luffy.png" alt="error"></a>
+        <h1 style="color: aliceblue;">Contact Us</h1>
+    </header>
+    <nav>
+        <a href="devilfruit.html">Devil Friut</a>
+        <a href="transformation.html">Transformations</a>
+        <a href="haki.html">Haki</a>
+        <a href="#">Contact us</a>
+        <a href="https://www.google.com/">ℌ𝔢𝔩𝔭</a>
+    </nav>
+    <main>
+        <div class="contact">
+            <h1>Contact us</h1>
+            <form action="#">
+                <label for="firstname">First Name <sup style="color: red;">*</sup></label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter your First Name" required>
+                <label for="lastname">Last Name <sup style="color: red;">*</sup></label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter your Last Name" required>
+                <label for="gen">Gender</label>
+                <div><input type="radio" name="gen"><label>Male</label> <input type="radio" name="gen"><label>Female</label><input
+                        type="radio" name="gen"><label>Other</label></div>
+                <label for="mail">E-Mail Id <sup style="color: red;">*</sup></label>
+                <input type="email" name="mail" id="mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                    placeholder="Enter your Email" required>
+                <label for="feed">Problem or Feedback</label>
+                <input type="text" name="feed" id="name" placeholder="Problem or Feedback">
+                <center><button type="submit">Submit</button></center>
+
+            </form>
+    </main>
+
+
+    <footer>
+        <div class="foot">
+            <div class="first">
+                <h3>USEFUL LINKS</h3>
+                <a href="#">About</a>
+                <a href="#">More</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="second">
+                <h3 style="color: white;">NEWSLETTER</h3>
+                <form action="">
+                    <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                        placeholder="Your Email Address" required>
+                    <button class="but" type="submit">SUBSCRIBE NOW</button>
+                </form>
+            </div>
+            <div class="third">
+                <h3>Social Media</h3>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #fcfcfd;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #f7f7f8;"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
